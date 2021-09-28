@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+@font-face {
+  font-family: "proyecto";
+  src:url("../fonts/proyecto.eot");
+  src:url("../fonts/proyecto.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/proyecto.woff") format("woff"),
+    url("../fonts/proyecto.ttf") format("truetype"),
+    url("../fonts/proyecto.svg#proyecto") format("svg");
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+[data-icon]:before {
+  font-family: "proyecto" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "proyecto" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-facebook:before {
+  content: "\61";
+}
+.icon-twitter:before {
+  content: "\62";
+}
+.icon-whatsapp:before {
+  content: "\63";
+}
+.icon-phone:before {
+  content: "\64";
+}
+.icon-menu:before {
+  content: "\65";
+}
+.icon-envelope:before {
+  content: "\66";
+}
+.icon-youtube:before {
+  content: "\67";
+}
+.icon-map:before {
+  content: "\68";
+}

@@ -1,0 +1,519 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700|Pacifico&display=swap');
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+/*----------------ESTILOS BASE-------------*/
+img {
+	display: block;
+	width: 100%;
+	max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+
+}
+.container {
+	width: 95%;
+	margin: auto;
+
+}
+.container--flex {
+	display: flex;
+	flex-wrap:;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.column {
+	width: 100%;
+
+}
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+/*----------------ESTILOS HEADER-------------*/
+.main-header {
+	width: 95%;
+}
+.logo {
+	font-size: 1.8em;
+	color:#2874A6 ;
+	padding: 10px;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+    text-align: left
+}
+.main-header__contactInfo__phone {
+	background:#2874A6;
+	color:white;
+	margin:auto;
+	margin-right: -13px;
+    
+    }
+.main-header__contactInfo__address {
+	padding: 10px;
+	margin:auto;
+    margin-right: -13px;
+}
+.main-header [class*="icon-"]:before {
+position: relative;
+top: 2px;
+right: 5px;
+
+
+}
+/*----------------ESTILOS DEL MENU-------------*/
+.main-nav {
+	width: 95%;
+	position: relative;
+	z-index: 10000;
+	padding: 10px;
+    
+}
+.icon-menu {
+	display: block;
+	color:white;
+	border:1px solid white;
+	width: 40px;
+	height: 40px;
+	line-height: 45px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 1.5em;
+
+
+}
+.social-icon {
+	display: flex;
+	justify-content: space-between;
+}
+.social-icon [class*="icon"] {
+	color:black;
+	margin-left: 1px;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.3em;
+	width: 35px;
+	height: 35px;
+	background: white;
+	border-radius: 100%;
+}
+.social-icon__link {
+	text-decoration: none;
+}
+.menu {
+	position: absolute;
+	top:60px;
+	left: 0;
+	width: 100%;
+	background: rgba(0,0,0,0.80);
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+	height: 0;
+	overflow: hidden;
+	transition: height .3s linear;
+    color: white;
+
+}
+.menu__link {
+display: block;
+padding: 15px;
+color: white;
+text-decoration:none;
+}
+.menu__link:hover {
+	background:#2874A6 ;
+
+}
+.menu__link--select {
+	background:#2874A6 ;
+
+}
+.mostrar {
+	height: 196px;
+	
+}
+
+/*----------------ESTILOS DEL BANNER-------------*/
+.banner {
+	margin-top: -70px;
+	position: relative;
+}
+.banner:before {
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);
+	z-index: 1000;
+	top:0;
+}
+.banner__img {
+	width: 100%;
+	height: 500px;
+	object-fit: cover;
+}
+.banner__content {
+	width: 70%;
+	color:white;
+	text-align: center;
+	position: absolute;
+	z-index: 1500;
+	top: 50%;
+	left:15%;
+	transform: translateX(-50) translateY(-50%);
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+/*-------- ESTILOS PRINCIPALES------*/
+
+.group--color .container {
+	background:#2874A6 ;
+    margin: auto
+	color: white;
+	padding: 10px;
+	text-align: center;
+    
+
+}
+#column .column__50 {
+    margin: inherit;
+    
+}
+
+.main__title {
+	margin: 15px;
+	font-size: 1.8em;
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+}
+
+.column__title {
+	font-size: 1.3em;
+	margin-left: 260px;
+    
+    
+
+}
+
+.main__about__description .column:nth-child(2) {
+padding: 10px;
+
+}
+
+.btn {
+ 	display: block;
+ 	text-align: center;
+ 	text-decoration: none;
+ 	width: 120px;
+ 	background: #2874A6 ;
+ 	padding: 10px;
+ 	margin: 10px auto;
+ 	color: white;
+ 	font-family:'Montserrat', sans-serif;
+}
+.group__title {
+	font-family: 'Pacifico', cursive;
+	text-align: center;
+	font-weight: 100;
+	font-size: 1.8em;
+	margin: 30px;
+}
+.column__txt{
+	margin-left: 200px;
+}
+
+
+.today-special .column {
+	margin-bottom: 30px;
+	text-align: center;
+
+}
+.today-special__img {
+	margin: 2px;
+	max-width: 350px;
+    width: 100%;
+    height: 110px;
+    
+}
+
+
+.today-spacial__title {
+	text-align: center;
+	font-size: 1.3em;
+	padding-top: 10px;
+	padding-bottom: 20px;
+
+}
+.today-special__price {
+	font-size: 1.5em;
+	color:#2874A6 ;
+	font-weight: bold;
+}
+
+/*---------------- ESTILOS DEL FOOTER ------*/
+footer{
+    display: flex;
+	
+    
+    
+    
+}
+.main-footer {
+	background: #222;
+	color: white;
+	padding: 10px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+	font-size: .8em;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction:column;
+	
+    
+}
+.container__flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.copy {
+	text-align: center;
+	margin: auto;
+	margin-top: 15px;
+
+}
+.main-footer [class*="icon-"] {
+	color: white;
+	text-decoration: none;
+
+}
+.main-footer [class*="icon-"]:before {
+	position: relative;
+	top: 3px;
+	right: 5px;
+
+}
+
+/*---------------------ESTILOS RESPONSIVE-----------------*/
+
+@media screen and (min-width: 480px) {
+	.logo {
+		color: ;
+ 	}
+ 	.main-header__contactInfo {
+ 		text-align: right;
+	}
+	
+  	.main-header__contactInfo__phone {
+  		background: none;
+
+  	}
+  	.main-header__contactInfo__address {
+  		color: white;
+  	}
+  	
+	.main-nav {
+		background: rgba(0,0,0,0.75);
+	}
+	.banner {
+		margin-top: -180px;
+		z-index: -1000;
+  	}
+  	.banner__content {
+  		font-size: 2em;
+  	}
+ 
+	.main {
+		padding-bottom: 15px; 
+	}
+	.main__about__description .column:nth-child(2) {
+  	    padding-left: : 20px;
+  	    font-size: 0.9em;
+	}
+	.main__about__description .btn {
+		margin: 0;
+
+	}	
+	.today-special .column {
+		border: 5px solid #ddd;
+		padding: 5px;
+	}
+	.today-special__img {
+		height: 200px;
+		object-fit: cover;
+        
+	}
+
+    .column--50 {
+  		width: 49%;
+	}
+	.column--50-25 {
+		width: 50%;
+
+	}
+	.column--33 {
+		width: 100%;
+		
+        
+
+	}
+	
+    .main-nav {
+	width: 96%;
+	position: relative;
+	z-index: 10000;
+	padding: 10px;
+}
+.column__txt{
+	margin-left: auto;
+}
+.column__title {
+	font-size: 1.3em;
+	margin-left: 80px;
+    
+    
+
+}
+
+}
+
+@media screen and (min-width: 768px) {
+	.main__title {
+	font-size: 2.2em;
+	}
+	.main__about__description {
+	margin-top: 30px;
+	}
+	.main__about__description .column--50:nth-child(2) {
+	font-size: 1em;
+	}
+	.main__about__description .column--50:nth-child(2) .column__txt {
+		line-height: 30px; 
+	}
+	.column--50-25 {
+		width: 25%;
+	}
+	.column__title {
+		font-size: 1em;
+	}
+	.group__title {
+		font-size: 2.2em;
+	}
+    .main-nav {
+	width: 100%;
+	position: relative;
+	z-index: 10000;
+	padding: 10px;
+}
+.column__txt{
+	margin-left: 20px;
+}
+.column__title {
+	font-size: 1.3em;
+	margin-left: 80px;
+    
+    
+
+}
+}
+@media screen and (min-width: 1024px) {
+	.container {
+		width: 1200px;
+	}
+	.logo{
+		font-size: 2em;
+		padding: 0;
+	}
+	.main-header__contactInfo__phone, .main-header__contactInfo__address {
+		padding-right: 0;
+		font-size: 1.15em;
+	}
+	.main-nav {
+		padding: 0;
+	}
+	.banner__content{
+		font-size: 2.5em;
+	}
+	.icon-menu {
+		display: none;
+	}
+	.menu {
+	position: static;
+	display: flex;
+	height: auto;
+	width: auto;
+
+	}
+	.menu__link {
+		padding: 20px;
+	}
+	.group--color .container {
+		margin-top: 30px;
+		margin-bottom: 30px;
+		padding: 20px; 
+	}
+	.main__title {
+		font-size: 2.5em;
+	}
+	.main__about__description .column--50:nth-child(2) .column__txt {
+		line-height: 100%; column
+	}
+	.today-special__title {
+		font-size: 1.4em;
+	}
+	.today-special__price {
+		font-size: 1.8em;
+	}
+	.main-footer {
+		padding-top:20px;
+		padding-bottom: 30px;
+	}
+	.group__title {
+		font-family: 'Pacifico', cursive;
+		text-align: center;
+		font-weight: 100;
+		font-size: 1.8em;
+		margin: 30px;
+	}
+	
+}
+
+@media screen and (min-width: 1600px) {
+	.container {
+		width: 1400px;
+	}
+    .banner__img {
+        height: 800px;
+        
+    }
+	.main__about__description .column:nth-child(1) img {
+		width: 100%;
+		height: 350px;
+        object-fit: cover;
+	}
+    .today-sopecial__img {
+		height: 300px;
+        }
+    footer{
+		display: flex;
+		flex-direction: row;
+        
+	}
+	.container--flex{
+		display: flex;
+	}
+} 
+
+
+
